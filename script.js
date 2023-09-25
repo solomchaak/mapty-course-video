@@ -444,4 +444,9 @@ class App {
   }
 }
 
+const newFeature = function() {
+  console.log('Welcome to the application!')
+}
+
 const app = new App();
+newFeature();
